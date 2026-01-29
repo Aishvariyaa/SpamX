@@ -1,23 +1,23 @@
-# 📧 **SpamX – Intelligent Spam Email Classifier (Binary Classification)**
+# **SpamX – Intelligent Spam Email Classifier (Binary Classification)**
 
-## 🔍 Overview
+## Overview
 
 **SpamX** is a Machine Learning-based text classification system that detects whether a message is **Spam (1)** or **Not Spam (0)**.
 It uses **NLP (Natural Language Processing)** techniques with **TF-IDF vectorization** and multiple machine learning models such as **Naïve Bayes, Logistic Regression, and SVM** to ensure accurate classification.
 
 ---
 
-## 🚀 Features
+## Features
 
-✔️ Text preprocessing (cleaning, stopword removal, tokenization)
-✔️ TF-IDF vectorization for feature extraction
-✔️ Multiple ML models trained & evaluated
-✔️ Achieved **100% accuracy** on the given dataset
-✔️ Extendable to real-world datasets for production use
+Text preprocessing (cleaning, stopword removal, tokenization)
+TF-IDF vectorization for feature extraction
+Multiple ML models trained & evaluated
+Achieved **100% accuracy** on the given dataset
+Extendable to real-world datasets for production use
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 * **Source:** [SMS Spam Collection Dataset (UCI Repository)](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
 * **Size:** 5,572 messages
@@ -28,9 +28,9 @@ It uses **NLP (Natural Language Processing)** techniques with **TF-IDF vectoriza
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-* **Python** 🐍
+* **Python** 
 * **Pandas & NumPy** → Data Processing
 * **NLTK** → NLP (stopwords, tokenization, cleaning)
 * **Scikit-learn** → ML Models & Evaluation
@@ -38,7 +38,7 @@ It uses **NLP (Natural Language Processing)** techniques with **TF-IDF vectoriza
 
 ---
 
-## ⚡ Workflow
+## Workflow
 
 1. **Data Preprocessing**
 
@@ -54,14 +54,14 @@ It uses **NLP (Natural Language Processing)** techniques with **TF-IDF vectoriza
 
 3. **Model Evaluation**
 
-   * Accuracy ✅
-   * Precision ✅
-   * Recall ✅
-   * F1-Score ✅
+   * Accuracy 
+   * Precision 
+   * Recall 
+   * F1-Score 
 
 ---
 
-## 📊 Results
+## Results
 
 | Model                  | Accuracy | Precision | Recall | F1-Score |
 | ---------------------- | -------- | --------- | ------ | -------- |
@@ -69,11 +69,11 @@ It uses **NLP (Natural Language Processing)** techniques with **TF-IDF vectoriza
 | Logistic Regression    | 100%     | 1.00      | 1.00   | 1.00     |
 | Support Vector Machine | 100%     | 1.00      | 1.00   | 1.00     |
 
-⚠️ **Note:** Perfect accuracy suggests the dataset may be too clean or overfitting. Testing with larger real-world datasets is recommended.
+**Note:** Perfect accuracy suggests the dataset may be too clean or overfitting. Testing with larger real-world datasets is recommended.
 
 ---
 
-## 🖥️ How to Run
+## How to Run
 
 ```bash
 # Clone repo
@@ -89,17 +89,17 @@ jupyter notebook SMS Spam.ipynb
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
-🔹 Test with large real-world email datasets
-🔹 Implement Deep Learning models (LSTM, BERT)
-🔹 Deploy as a **Flask/FastAPI service** for real-time filtering
-🔹 Build a simple **web app** for users to test messages
+Test with large real-world email datasets
+Implement Deep Learning models (LSTM, BERT)
+Deploy as a **Flask/FastAPI service** for real-time filtering
+Build a simple **web app** for users to test messages
 
 ---
 
-## 🔖 Tagline
-💡 "SpamX -  Smart AI-powered email spam detection system"
+## Tagline
+"SpamX -  Smart AI-powered email spam detection system"
 
 ---
 
